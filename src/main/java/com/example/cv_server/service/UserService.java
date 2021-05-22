@@ -1,6 +1,6 @@
-package cv_server.service;
+package com.example.cv_server.service;
 
-import cv_server.domain.User;
+import com.example.cv_server.domain.User;
 
 import java.util.List;
 

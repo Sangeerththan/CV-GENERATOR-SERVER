@@ -1,8 +1,8 @@
-package cv_server.service.impl;
+package com.example.cv_server.service.impl;
 
-import cv_server.domain.User;
-import cv_server.repository.UserRepository;
-import cv_server.service.UserService;
+import com.example.cv_server.domain.User;
+import com.example.cv_server.service.UserService;
+import com.example.cv_server.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;

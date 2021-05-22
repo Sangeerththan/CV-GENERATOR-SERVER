@@ -1,4 +1,4 @@
-package cv_server.domain;
+package com.example.cv_server.domain;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
