@@ -2,10 +2,8 @@ package com.example.cv_server.domain;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class User {
@@ -18,6 +16,16 @@ public class User {
     private String password;
     private Integer term;
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,orphanRemoval = true)
+    private Set<Projects> projects;
+
+    public Set<Projects> getProjects() {
+        return projects;
+    }
+
+    public void setProjects(Set<Projects> projects) {
+        this.projects = projects;
+    }
 
     public User() {
     }
