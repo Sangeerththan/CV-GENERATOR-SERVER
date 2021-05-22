@@ -5,12 +5,12 @@ import org.springframework.boot.autoconfigure.*;
 
 
 @SpringBootApplication
-public class Example {
+public class Engine {
 
 
 
     public static void main(String[] args) {
-        SpringApplication.run(Example.class, args);
+        SpringApplication.run(Engine.class, args);
     }
 
 }
