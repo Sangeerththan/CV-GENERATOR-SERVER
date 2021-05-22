@@ -1,0 +1,1 @@
+mysql -u test -pZaq1Xsw2@ -h localhost -D cv_generator -e "SHOW TABLES"
