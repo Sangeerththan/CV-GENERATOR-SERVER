@@ -4,9 +4,7 @@ import com.example.cv_server.domain.User;
 import com.example.cv_server.repository.UserRepository;
 import com.example.cv_server.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -18,13 +16,15 @@ public class UserApi {
     private UserService userService;
 
 
-
-
-
     @GetMapping("/user")
     public List<User> getUser(){
 
       List<User> users = userService.getUser();
         return userService.getUser();
+    }
+
+    @PostMapping("/user")
+    public  User createUser(@RequestBody User user){
+        return  userService.createUser(user);
     }
 }
