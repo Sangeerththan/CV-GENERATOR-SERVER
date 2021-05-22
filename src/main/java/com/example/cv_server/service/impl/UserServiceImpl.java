@@ -4,9 +4,11 @@ import com.example.cv_server.domain.User;
 import com.example.cv_server.service.UserService;
 import com.example.cv_server.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     @Autowired
