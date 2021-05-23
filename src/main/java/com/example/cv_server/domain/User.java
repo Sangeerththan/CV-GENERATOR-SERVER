@@ -1,6 +1,7 @@
 package com.example.cv_server.domain;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import javax.persistence.*;
 import java.util.Set;
