@@ -5,7 +5,7 @@ import com.generator.cv_server.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping(value ="api/v1")
@@ -16,11 +16,9 @@ public class UserApi {
     private UserService userService;
 
 
-    @GetMapping("/user")
-    public List<User> getUser(){
-
-      List<User> users = userService.getUser();
-        return userService.getUser();
+    @GetMapping("/user/{id}")
+    public Optional<User> getUser(@PathVariable(value = "id") Long userId){
+        return userService.getUser(userId);
     }
 
     @PostMapping("/user")
