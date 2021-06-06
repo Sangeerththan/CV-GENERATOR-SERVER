@@ -1,8 +1,8 @@
-package com.example.cv_server.service.impl;
+package com.generator.cv_server.service.impl;
 
-import com.example.cv_server.domain.User;
-import com.example.cv_server.service.UserService;
-import com.example.cv_server.repository.UserRepository;
+import com.generator.cv_server.domain.User;
+import com.generator.cv_server.service.UserService;
+import com.generator.cv_server.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

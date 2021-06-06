@@ -1,6 +1,6 @@
-package com.example.cv_server.service;
+package com.generator.cv_server.service;
 
-import com.example.cv_server.domain.User;
+import com.generator.cv_server.domain.User;
 
 import java.util.List;
 

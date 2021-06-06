@@ -2,5 +2,6 @@
 /home/sangee/Desktop/2021/CV-Generator/CV-GENERATOR-SERVER/src/main/java/com/example/cv_server/domain/User.java
 /home/sangee/Desktop/2021/CV-Generator/CV-GENERATOR-SERVER/src/main/java/com/example/cv_server/repository/UserRepository.java
 /home/sangee/Desktop/2021/CV-Generator/CV-GENERATOR-SERVER/src/main/java/com/example/cv_server/service/impl/UserServiceImpl.java
-/home/sangee/Desktop/2021/CV-Generator/CV-GENERATOR-SERVER/src/main/java/com/example/cv_server/Example.java
+/home/sangee/Desktop/2021/CV-Generator/CV-GENERATOR-SERVER/src/main/java/com/example/cv_server/Engine.java
+/home/sangee/Desktop/2021/CV-Generator/CV-GENERATOR-SERVER/src/main/java/com/example/cv_server/domain/Projects.java
 /home/sangee/Desktop/2021/CV-Generator/CV-GENERATOR-SERVER/src/main/java/com/example/cv_server/api/UserApi.java

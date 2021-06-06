@@ -1,7 +1,6 @@
-package com.example.cv_server.domain;
+package com.generator.cv_server.domain;
 
 import javax.persistence.*;
-import java.util.Set;
 
 @Entity
 public class Projects {

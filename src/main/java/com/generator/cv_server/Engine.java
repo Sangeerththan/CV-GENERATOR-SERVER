@@ -1,4 +1,4 @@
-package com.example.cv_server;
+package com.generator.cv_server;
 
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
